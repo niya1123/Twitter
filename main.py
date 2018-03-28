@@ -3,8 +3,8 @@
 
 from settings import CK, CS, AT, ATS
 from requests_oauthlib import OAuth1Session
-from io import StringIO
 import json, time, calendar, subprocess
+# OAuth1Session,subprocessは各自インストールして
 
 
 def Client_Key():
